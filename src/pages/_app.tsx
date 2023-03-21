@@ -1,6 +1,17 @@
 import '@/styles/globals.css'
+import React from 'react'
 import type { AppProps } from 'next/app'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import Header from '../components/header/artist'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <div>
+      <Header />
+     
+      <Component {...pageProps} />
+    </div>
+  )
 }
+
+export default MyApp

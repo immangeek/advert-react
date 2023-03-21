@@ -1,0 +1,45 @@
+.photo-collage {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo-collage-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .photo-collage-image-0 {
+    animation: fade-in-and-out 6s linear infinite;
+  }
+  
+  .photo-collage-image-1 {
+    animation: fade-in-and-out 6s linear 2s infinite;
+  }
+  
+  .photo-collage-image-2 {
+    animation: fade-in-and-out 6s linear 4s infinite;
+  }
+  
+  @keyframes fade-in-and-out {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
