@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/PhotoCollage.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/PhotoCollage.js", "src/pages/api/get_data.js", "src/pages/api/fetch_data.js"],
   "exclude": ["node_modules"]
 }
