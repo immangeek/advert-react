@@ -6,22 +6,22 @@ export default function Navbar() {
     <nav>
       <ul>
         <li>
-          <Link href="/">
+          <Link href="/artist">
             Jobboard
           </Link>
         </li>
         <li>
-          <Link href="/support">
+          <Link href="/artist/leaderboard">
             Leaderboard
           </Link>
         </li>
         <li>
-          <Link href="/support">
+          <Link href="/artist/support">
             Support
           </Link>
         </li>
         <li>
-          <Link href="/Settings">
+          <Link href="/artist/settings">
             Settings
           </Link>
         </li>

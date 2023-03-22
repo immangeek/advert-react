@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .photo-collage {
     display: flex;
     flex-wrap: wrap;
@@ -43,3 +47,36 @@
     }
   }
   
+  .main_title {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    color: #311057;
+    line-height: 50%;
+    text-transform: capitalize;
+  }
+  
+  .secondary_heading {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Urbanist", sans-serif;
+    color: #311057;
+    line-height: 50%;
+    text-transform: capitalize;
+  }
+  
+  .secondary_inactive {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Urbanist", sans-serif;
+    color: #7c6e90;
+    line-height: 50%;
+    text-transform: capitalize;
+  }
+  
+  .secondary_subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #7c6e90;
+  }
